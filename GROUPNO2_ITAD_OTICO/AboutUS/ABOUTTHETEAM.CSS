@@ -278,7 +278,7 @@ form {
   line-height: 60px; 
   margin-bottom: 0px;
 }
-.right img{
+.right img, .right iframe{
   width: 100%;
 }
 .team {
@@ -633,12 +633,10 @@ footer{
   .right h1 {
     font-size: 35px;
   }
-  .right img{
+  .right img, .right iframe{
     width: 100%;
   }
 }
-
-
 
 @media (max-width: 768px){
   nav{
@@ -779,7 +777,7 @@ nav .navbar .links li .sub-menu li{
     .right h1 {
       font-size: 35px;
     }
-    .right img{
+    .right img, .right iframe{
       width: 100%;
     }
     .footer-left p {
