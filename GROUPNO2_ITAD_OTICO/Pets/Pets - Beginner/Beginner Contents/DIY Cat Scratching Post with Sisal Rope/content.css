@@ -95,8 +95,10 @@ nav .navbar .links li .sub-menu{
   display: none;
   z-index: 2;
 }
-nav .navbar .links li:hover .htmlCss-sub-menu,
-nav .navbar .links li:hover .js-sub-menu{
+nav .navbar .links li:hover .Home-sub-menu,
+nav .navbar .links li:hover .Pets-sub-menu,
+nav .navbar .links li:hover .Education-sub-menu,
+nav .navbar .links li:hover .Fashion-sub-menu{
   display: block;
 }
 .navbar .links li .sub-menu li{
@@ -235,14 +237,13 @@ nav .navbar .links li:hover .js-sub-menu{
   font-size: 20px;
 }
 .bottom-half {
-  margin-top: -80px;
-  padding: 80px;
+  padding: 0px 80px;
   padding-bottom: 0px; 
 }
 
 .video {
   text-align: center;
-  margin: auto;
+  margin-top: 20px;
   width: 100%;
 }
 .bottom-half-contents{
@@ -293,14 +294,16 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 .image-two{
   margin-left: -50px;
-  width: 442px;
-  height: 535px;
-  padding: 20px;
+  width: 371px;
+  height: 371px;
+  object-fit: cover;
+  margin-bottom:50px ;
 }
 .image-three{
-  width: 442px;
-  height: 535px;
-
+  width: 371px;
+  height: 371px;
+  object-fit: cover;
+  margin-bottom:50px ;
 }
 /*-----------------------------------------------------FOOTER---------------------------------------------------*/
 footer{
@@ -392,6 +395,12 @@ footer{
   position: fixed;
   right: 5px;
   bottom: 5px;
+}
+.gotop a{
+  opacity: 0.8;
+}
+.gotop a:hover{
+  opacity: 1;
 }
 /*---------------------------------------------MEDIA QUERIES -----------------------------------------------------------------*/
 
@@ -495,21 +504,23 @@ nav .navbar .links li .sub-menu li{
   .links li .sub-menu .more:hover .more-sub-menu{
     display: none;
   }
-  nav .navbar .links li:hover .htmlCss-sub-menu,
-  nav .navbar .links li:hover .js-sub-menu{
+  nav .navbar .links li:hover .Home-sub-menu,
+  nav .navbar .links li:hover .Education-sub-menu,
+  nav .navbar .links li:hover .Pets-sub-menu,
+  nav .navbar .links li:hover .Fashion-sub-menu{
     display: none;
   }
-.navbar .nav-links.show1 .links .htmlCss-sub-menu,
-  .navbar .nav-links.show3 .links .js-sub-menu,
-  .navbar .nav-links.show2 .links .more .more-sub-menu{
+  .navbar .nav-links.show3 .links .Home-sub-menu,
+  .navbar .nav-links.show1 .links .Education-sub-menu,
+  .navbar .nav-links.show2 .links .Fashion-sub-menu,
+  .navbar .nav-links.show4 .links .Pets-sub-menu{
       display: block;
     }
-    .navbar .nav-links.show1 .links .htmlcss-arrow,
-    .navbar .nav-links.show3 .links .js-arrow{
-        transform: rotate(180deg);
-}
-    .navbar .nav-links.show2 .links .more-arrow{
-      transform: rotate(90deg);
+    .navbar .nav-links.show3 .links .Home-sub-menu,
+    .navbar .nav-links.show1 .links .Education-sub-menu,
+    .navbar .nav-links.show2 .links .Fashion-sub-menu,
+    .navbar .nav-links.show4 .links .Pets-sub-menu{
+        transform: rotate(0deg);
     }
 }
 @media (max-width:370px){
