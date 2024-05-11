@@ -304,6 +304,7 @@ form {
     width: 150px;
     height: auto;
     border-radius: 100px;
+    border: 2px dashed #786E65;
     display: inline;
     margin-left: 20px;
     margin-right: 20px;
@@ -476,6 +477,10 @@ form {
   width: 300px;
   text-align: center;
   margin-bottom: 50px;
+  background-image: url(images/kraftastic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c0b1a4;
 }
 .team-member img {
   display: block;
@@ -486,7 +491,7 @@ form {
   color: black;
 }
 .team-member a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 
