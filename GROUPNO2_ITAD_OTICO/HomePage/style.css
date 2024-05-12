@@ -325,6 +325,8 @@ nav .navbar .links li:hover .Fashion-sub-menu{
   display: flex;
   justify-content: center; 
   gap: 10px; 
+  width: 100%;
+  height: auto;
   margin-bottom: 125px;
   margin-top: -10px;
 }
@@ -530,6 +532,7 @@ nav .navbar .links li:hover .Fashion-sub-menu{
   background-color: white;
 }
 
+  
 
 
 
@@ -631,8 +634,9 @@ footer{
   opacity: 1;
 }
 
-
 /*---------------------------------------------MEDIA QUERIES -----------------------------------------------------------------*/
+/*---------------------------------------------MEDIA QUERIES -----------------------------------------------------------------*/
+
 @media (max-width: 1024px) {
   nav .navbar{
     max-width: 100%;
