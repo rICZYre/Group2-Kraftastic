@@ -669,51 +669,78 @@ footer{
   }
 
 
-
-  .know-about-us-box{
-    width: 200px;
-    height: 50px;  
-    border: 2px solid black;
-    background-color: white;
-    margin-top: px;
+  .container-one{
+    width: 97%;
     margin-left: auto;
     margin-right: auto;
-    display: flex; 
-    flex-direction: row;        
-    justify-content: center;
-    align-items: center; 
-    transition: background-color 0.3s, color 0.3s;
   }
-    #know-about-us-box-h2{
-    vertical-align: middle;   
-    font-size: 10px;
+  #box-one-h1{
+    width: 90%;
+    font-size: 32px;
+  }
+  #box-one-p{
+    width: 90%;
+    font-size: 16px;
+  }
+  .box-one{
+    margin-right: 5px;
+  }
+  .know-about-us-box{
+    width: 70%;
+    height: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #know-about-us-box-h2{
+    font-size: 12px;
     margin: auto;
-    padding: 15px 46px;
+    padding: 5px 10px;
+
   }
-  .top-image-one{
-    width: 30%;
-    height: 500px; 
-    padding: 5px;
+  .container{
+    width: 97%;
   }
-  .container-two {
-    background-color: #fff;
-    text-align: left;
-    margin: 50px 100px 150px 50px;
+  .bottom-box{
+    margin-top: 100px;
+    background-color: #F5F5DC;
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 30px;
   }
-  .container-two-images {
-    display: flex;
-    justify-content: center; 
-    gap: 10px; 
-    margin-bottom: 125px;
-    margin-top: -10px;
-    margin-left: 40px;
+  .container-two{
+    width: 90%;
   }
-  .container-two-image{
-    width: 165px;
-    height: 300px;
-    
+  .bottom-half{
+    width: 97%;
+  }
+  .bottom-half .container-two-images {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: -100px;
+  }
+  .image-title h2{
+    font-size: 20px;
+  }
+  .container-two .section-header h2{
+    margin-left: -90px;
+    width: 100%;
+   
+  }
+  .container-two .section-header i{
+    margin-left: -190px;
+   
+  }
+  .short-header{
+    margin-left: -60px;
+    width: 100%;
+  }
+  .section-header{
+    width: 97%;
   }
   
+  
+    
 }
 
 
@@ -856,66 +883,89 @@ nav .navbar .links li .sub-menu li{
       margin-left: 40px;
       margin-bottom: 10px;
     }
-
+    .top-image-one{
+      width: 50%;
+      height: 400px;
+      padding-left: 10px;
+      padding-top: 20px;
+    }
+    .top-image-two{
+      width: 50%;
+      padding-right: 10px;
+      padding-top:20px;
+      height: 400px;
+    }
 
     .container-one{
-        margin: 50px 30px 20px 20px;
-    }
-    #box-one-h1{
-      font-size: 20px;
-      margin-top: 5px;
-      width: 25px;
-    }
-    #box-one-p{
-      font-size: 13px;
-      
-    }
-    .know-about-us-box{
-      width: 100px;
-      height: 50px;  
-      border: 2px solid black;
-      background-color: white;
-      
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
-      display: flex; 
-      flex-direction: row;        
-      justify-content: center;
-      align-items: center; 
-      transition: background-color 0.3s, color 0.3s;
     }
-      #know-about-us-box-h2{
-      vertical-align: middle;   
-      font-size: 10px;
-      margin: auto;
-      padding: 5px 16px;
+    #box-one-h1{
+      width: 90%;
+      padding: 3px 10px;
     }
-    .container-one{
-      gap: 3px;
+    #box-one-p{
+      width: 100%;
+      padding: 3px 10px;
     }
-    .top-image-one{
-      width: 30%;
-      height: 500px; 
-      padding: 5px;
-    }
-    .container-two {
-      background-color: #fff;
-      text-align: left;
-      margin: 50px 100px 150px 10px;
-    }
-    .container-two-images {
-      display: flex;
-      justify-content: center; 
-      gap: 10px; 
-      margin-bottom: 125px;
-      margin-top: -10px;
-      margin-left: 350px;
-    }
-    .container-two-image{
-      width: 165px;
+    .box-one{
+      margin-top: -150px;
+      width: 100%;
+      padding: 8px 10px;
+      margin-left: auto;
+      margin-right: auto;
       height: 300px;
+    }
+    .know-about-us-box{
+      width: auto;
+      height: 50px; 
+      margin-left: 10px;
       
     }
+    #know-about-us-box-h2{
+      font-size: 12px;
+      margin: auto;
+      padding: 5px 10px;
+  
+    }
+    .bottom-half{
+      width: 80%;
+    }
+    .container{
+      width: 100%;
+    }
+    .bottom-half{
+      width: 97%;
+    }
+    .bottom-half .container-two-images {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 10px;
+      margin-left: -105px;
+    }
+    .image-title h2{
+      font-size: 20px;
+    }
+    .container-two .section-header h2{
+      margin-left: -90px;
+      width: 70%;
+     
+    }
+    .container-two .section-header i{
+      margin-left: -190px;
+      width: 80%;
+     
+    }
+    .short-header{
+      margin-left: -65px;
+      width: 70%;
+    }
+    .section-header{
+      width: 97%;
+    }
+    
+
 }
 
 
@@ -923,67 +973,78 @@ nav .navbar .links li .sub-menu li{
   nav .navbar .nav-links{
   max-width: 100%;
   } 
+  .top-image-one{
+    width: 50%;
+    height: 350px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .top-image-two{
+    width: 50%;
+    padding-right: 10px;
+    padding-top:20px;
+    height: 350px;
+  }
+
   .container-one{
-    margin: 50px 30px 20px 20px;
-  }
-  #box-one-h1{
-    font-size: 15px;
-    margin-top: 25px;
-    width: 25px;
-  }
-  #box-one-p{
-    font-size: 11px;  
-  }
-  .know-about-us-box{
-    width: 70px;
-    height: 50px;  
-    border: 2px solid black;
-    background-color: white;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: flex; 
-    flex-direction: row;        
-    justify-content: center;
-    align-items: center; 
-    transition: background-color 0.3s, color 0.3s;
+  }
+  #box-one-h1{
+    width: 90%;
+    padding: 3px 10px;
+  }
+  #box-one-p{
+    width: 100%;
+    padding: 3px 10px;
+  }
+  .box-one{
+    margin-top: -150px;
+    width: 100%;
+    padding: 8px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+  }
+  .know-about-us-box{
+    width: auto;
+    height: 50px; 
+    margin-left: 10px;
+    
   }
   #know-about-us-box-h2{
-    vertical-align: middle;   
-    font-size: 7px;
+    font-size: 12px;
     margin: auto;
     padding: 5px 10px;
+
   }
-  .hr-container h1{
-    font-size: 26px;
+  .bottom-half{
+    width: 97%;
   }
-  .image-item{
-    width: 225px;
-    height: 100px;
+  .bottom-half .container-two-images {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: -125px;
   }
-  .container-one{
-    gap: 3px;
+  .image-title h2{
+    font-size: 15px;
   }
-  .top-image-one{
-    width: 30%;
-    height: 500px; 
-    padding: 5px;
+  .container-two .section-header h2{
+    margin-left: -100px;
+    width: 70%;
+   
   }
-  .container-two {
-    background-color: #fff;
-    text-align: left;
-    margin: 50px 100px 150px 10px;
+  .container-two .section-header i{
+    margin-left: -170px;
+   
   }
-  .container-two-images {
-    display: flex;
-    justify-content: center; 
-    gap: 10px; 
-    margin-bottom: 125px;
-    margin-top: -10px;
-    margin-left: 350px;
+  .short-header{
+    margin-left: -80px;
+    width: 80%;
   }
-  .container-two-image{
-    width: 165px;
-    height: 300px;
-  
+  .section-header{
+    width: 97%;
   }
 }
