@@ -25,15 +25,19 @@ navLinks.style.left = "-100%";
 
 
 // sidebar submenu open close js code
-let htmlcssArrow = document.querySelector(".htmlcss-arrow");
-htmlcssArrow.onclick = function() {
+let EducationArrow = document.querySelector(".Education-arrow");
+EducationArrow.onclick = function() {
  navLinks.classList.toggle("show1");
 }
-let moreArrow = document.querySelector(".more-arrow");
-moreArrow.onclick = function() {
+let FashionArrow = document.querySelector(".Fashion-arrow");
+FashionArrow.onclick = function() {
  navLinks.classList.toggle("show2");
 }
-let jsArrow = document.querySelector(".js-arrow");
-jsArrow.onclick = function() {
+let HomeArrow = document.querySelector(".Home-arrow");
+HomeArrow.onclick = function() {
  navLinks.classList.toggle("show3");
+}
+let PetsArrow = document.querySelector(".Pets-arrow");
+PetsArrow.onclick = function() {
+ navLinks.classList.toggle("show4");
 }

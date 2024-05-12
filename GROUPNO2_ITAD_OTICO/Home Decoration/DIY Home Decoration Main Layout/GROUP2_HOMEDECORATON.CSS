@@ -347,7 +347,6 @@ header {
     float: left;
     padding-left: 8rem;
     width: 48%;
-    margin-left: 100px;
 }
 
 .contentContainer-left img {
@@ -390,7 +389,7 @@ header {
     float: left;
     padding-top: 28px;
     padding-bottom: 50px;
-    width: 42%;
+    width: 50%;
 }
 
 .contentContainer-right img{
@@ -414,7 +413,7 @@ header {
 
 .contentContainer-right h3{
     text-align: left;
-    margin-top: 35px;
+    margin-top: 50px;
     width: 70%;
     vertical-align: middle;
 }
@@ -427,7 +426,6 @@ header {
     background-color: #FFFFFF;
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
 }
 
 .learnTheBasic-BudgetDIY-Container h2 {
@@ -1024,6 +1022,9 @@ footer{
       margin-bottom: 10px;
     }
   }
+
+
+
 
 @media (max-width: 480px){
     nav .navbar .nav-links{
