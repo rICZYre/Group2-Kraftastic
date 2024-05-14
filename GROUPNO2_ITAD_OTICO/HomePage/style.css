@@ -131,9 +131,8 @@ nav .navbar .links li:hover .Fashion-sub-menu{
   line-height: 40px;
   text-align: center;
   font-size: 22px;
-  color: #fff;
+  color: #786E65;
   font-weight: 600;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 .navbar .search-box .input-box{
