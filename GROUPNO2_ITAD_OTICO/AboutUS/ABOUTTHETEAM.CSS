@@ -280,10 +280,14 @@ form {
 }
 .right img, .right iframe{
   width: 100%;
+  border: 5px ridge #786E65;
+  border-right-color: #925d2e;
+  border-radius: 10px;
 }
 .team {
     font-size: 20px;
     text-align: center;
+    
 }
 .team .meet-content {
   line-height: 25px; 
@@ -292,6 +296,7 @@ form {
   font-size: 16px;
   margin-bottom: 5px;
   width: 60%;
+  
 }
 .team h1 {
   margin-top: 50px;
@@ -308,6 +313,7 @@ form {
     display: inline;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 
 #row1 {
